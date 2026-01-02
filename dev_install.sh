@@ -1,7 +1,9 @@
 # install basic dev tool
 
 sudo apt update && sudo apt upgrade -y
+# installs gcc make gnu
 sudo apt install build-essential -y
+# installs git curl wget unzip tree vim
 sudo apt install git curl wget unzip tree vim -y
 
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
